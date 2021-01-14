@@ -28,7 +28,7 @@
 <br/>
 
 <div align="center">
-    <img src="https://github.com/achen353/Taiwan-Traffic-Object-Detection/blob/master/readme_assets/prediction_night.gif"/>
+    <img src="https://github.com/achen353/Taiwan-Traffic-Object-Detection/blob/master/readme_assets/prediction_night.gif" width="80%"/>
 </div>
 
 ## Table of Contents
@@ -83,7 +83,9 @@ demonstrations of the model's performance as provided below.
 ## Results
 Setting the model resolution `1280*704`, we were able to achieve an 87.2% mAP@0.5 at 18-23 FPS on average.
 
-![](chart_yolov4-tiny-obj.png)
+<div align="center">
+    <img src="https://github.com/achen353/Taiwan-Traffic-Object-Detection/blob/master/chart_yolov4-tiny-obj.png" width="50%"/>
+</div>
 
 Below are examples of our model making inferences:
 
@@ -94,6 +96,8 @@ Sunny Day (Avg FPS: 23.0)                     |  Sunny Night (Avg FPS: 19.7)
 Rainy Day (Avg FPS: 20.2)                     |  Rainy Night (Avg FPS: 20.3)
 :---------------------------------------------:|:------------------------------------------------:
 ![](./readme_assets/prediction_day_rain.gif)   |  ![](./readme_assets/prediction_night_rain.gif) 
+
+Check out `predictions` folders if the `.gif` above are loading slow.
 
 ## Setup
 1. Open your terminal, `cd` into where you'd like to clone this project, and clone the project:
