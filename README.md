@@ -103,7 +103,7 @@ for conf_thresh = 0.25, TP = 125318, FP = 13450, FN = 21744, average IoU = 76.20
 
 Below are examples of our model making inferences:
 
-Sunny Day (Avg FPS: 23.0)                     |  Sunny Night (Avg FPS: 19.7)
+Sunny Day (Avg FPS: 23.0)                      |  Clear Night (Avg FPS: 19.7)
 :---------------------------------------------:|:------------------------------------------------:
 ![](./readme_assets/prediction_day.gif)        |  ![](./readme_assets/prediction_night.gif)
 
@@ -158,5 +158,8 @@ makes inferences, add `-dont_show` flag in your command.
 ## Credits
 - AlexeyAB's Darknet YOLOv4 [repository](https://github.com/AlexeyAB/darknet) 
 - [Embedded Deep Learning Object Detection Model Compression Competition for Traffic in Asian Countries](https://aidea-web.tw/topic/35e0ddb9-d54b-40b7-b445-67d627890454?focus=intro)
-
-
+- Sample videos:
+    - [Sunny Day](https://www.youtube.com/watch?v=iPrVblctRz0&ab_channel=%E5%BF%AB%E8%AD%AF%E9%80%9A)
+    - [Clear Night](https://www.youtube.com/watch?v=SXZ0lGyO-uI&ab_channel=%E5%BF%AB%E8%AD%AF%E9%80%9A)
+    - [Rainy Day](https://www.youtube.com/watch?v=vssZNnTw_cE&ab_channel=%E5%BF%AB%E8%AD%AF%E9%80%9A)
+    - [Rainy Night](https://www.youtube.com/watch?v=Mrz8HFV1Ym0&ab_channel=%E5%BF%AB%E8%AD%AF%E9%80%9A)
