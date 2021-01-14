@@ -87,6 +87,20 @@ Setting the model resolution `1280*704`, we were able to achieve an 87.2% mAP@0.
     <img src="https://github.com/achen353/Taiwan-Traffic-Object-Detection/blob/master/chart_yolov4-tiny-obj.png" width="50%"/>
 </div>
 
+<br/>
+
+On the validation data:
+```
+detections_count = 435135, unique_truth_count = 147062
+class_id = 0, name = vehicle, ap = 91.48%        (TP = 86140, FP = 8549)
+class_id = 1, name = scooter, ap = 88.69%        (TP = 25877, FP = 2760)
+class_id = 2, name = pedestrian, ap = 84.81%     (TP = 11759, FP = 1900)
+class_id = 3, name = bicycle, ap = 83.77%        (TP = 1542, FP = 241)
+
+for conf_thresh = 0.25, precision = 0.90, recall = 0.85, F1-score = 0.88
+for conf_thresh = 0.25, TP = 125318, FP = 13450, FN = 21744, average IoU = 76.20 %
+```
+
 Below are examples of our model making inferences:
 
 Sunny Day (Avg FPS: 23.0)                     |  Sunny Night (Avg FPS: 19.7)
