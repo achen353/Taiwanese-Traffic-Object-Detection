@@ -13,19 +13,23 @@
 <div align="center">
     <!-- Framework  -->
     <img src="https://img.shields.io/badge/framework-Darknet-blue"/>
-    <!-- Model Author -->
+    <!-- Model author -->
     <img src="https://img.shields.io/badge/model-by%20AlexeyAB-blue"/>
-    <!-- Python version -->
+    <!-- Last commit -->
     <img src="https://img.shields.io/github/last-commit/achen353/Taiwan-Traffic-Object-Detection?style=flat-square"/>
-    <!-- Python version -->
+    <!-- Stars -->
     <img src="https://img.shields.io/github/stars/achen353/Taiwan-Traffic-Object-Detection?style=flat-square"/>
-    <!-- Python version -->
+    <!-- Forks -->
     <img src="https://img.shields.io/github/forks/achen353/Taiwan-Traffic-Object-Detection?style=flat-square"/>
-    <!-- Python version -->
+    <!-- Issues -->
     <img src="https://img.shields.io/github/issues/achen353/Taiwan-Traffic-Object-Detection?style=flat-square"/>
 </div>
 
 <br/>
+
+<div align="center">
+    <img src="https://github.com/achen353/Taiwan-Traffic-Object-Detection/blob/master/readme_assets/prediction_night.gif"/>
+</div>
 
 ## Table of Contents
 - [About](#about)
@@ -79,6 +83,17 @@ demonstrations of the model's performance as provided below.
 ## Results
 Setting the model resolution `1280*704`, we were able to achieve an 87.2% mAP@0.5 at 18-23 FPS on average.
 
+![](chart_yolov4-tiny-obj.png)
+
+Below are examples of our model making inferences:
+
+Sunny Day (Avg FPS: 23.0)                     |  Sunny Night (Avg FPS: 19.7)
+:---------------------------------------------:|:------------------------------------------------:
+![](./readme_assets/prediction_day.gif)        |  ![](./readme_assets/prediction_night.gif)
+
+Rainy Day (Avg FPS: 20.2)                     |  Rainy Night (Avg FPS: 20.3)
+:---------------------------------------------:|:------------------------------------------------:
+![](./readme_assets/prediction_day_rain.gif)   |  ![](./readme_assets/prediction_night_rain.gif) 
 
 ## Setup
 1. Open your terminal, `cd` into where you'd like to clone this project, and clone the project:
