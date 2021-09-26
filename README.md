@@ -114,6 +114,7 @@ Rainy Day (Avg FPS: 20.2)                     |  Rainy Night (Avg FPS: 20.3)
 Check out `predictions` folders if the `.gif` above are loading slow.
 
 ## Setup
+0. [Download](https://drive.google.com/file/d/1Elahba3G2a363W5gvd2ZGWT8zavyTRsC/view?usp=sharing) archive file, unzip it, and put all the files in the root directory.
 1. Open your terminal, `cd` into where you'd like to clone this project, and clone the project:
 ```
 $ git clone https://github.com/achen353/Taiwan-Traffic-Object-Detection.git
