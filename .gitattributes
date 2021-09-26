@@ -1,5 +1,0 @@
-*.mp4 filter=lfs diff=lfs merge=lfs -text
-yolov4-tiny.conv.29 filter=lfs diff=lfs merge=lfs -text
-yolov4.conv.137 filter=lfs diff=lfs merge=lfs -text
-*.gif filter=lfs diff=lfs merge=lfs -text
-*.avi filter=lfs diff=lfs merge=lfs -text
